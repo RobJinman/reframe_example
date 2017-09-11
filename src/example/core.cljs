@@ -1,4 +1,6 @@
 (ns example.core
+  (:require-macros
+   [example.macros :refer [code-critic]])
   (:require 
    [goog.dom :as gdom]
    [reagent.core :as reagent]
